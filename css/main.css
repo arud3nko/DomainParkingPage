@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-SemiBold.ttf");
+}
+
+@media (min-width: 121px) {
+    .header-text {font-size: 4em;}
+    #cg-row {height: 4rem;}
+    #project-header {font-size: 3em;}
+    #project-subheader {font-size: 1em;}
+    #about-section {font-size: 1.5em;}
+    #description {font-size: 0.4em;}
+    #description {text-align: center;}
+}
+
+@media (min-width: 544px) {
+  .header-text {font-size:8em;} /*1rem = 16px*/
+    #cg-row {height: 5rem;}
+  #project-header {font-size: 6em;}
+  #project-subheader {font-size: 1.5em;}
+  #about-section {font-size: 2em;}
+  #description {font-size: 0.4em;}
+  #description {text-align: center;}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .header-text {font-size:11em;} /*1rem = 16px*/
+  #cg-row {height: 10rem;}
+  #project-header {font-size: 10em;}
+  #project-subheader {font-size: 3em;}
+  #about-section {font-size: 3em;}
+  #description {text-align: center;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-text {font-size:16em;} /*1rem = 16px*/
+  #cg-row {height: 12rem;}
+  #project-header {font-size: 12em;}
+  #project-subheader {font-size: 4em;}
+  #about-section {font-size: 3em;}
+  #description {text-align: justify;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-text {font-size:18em;} /*1rem = 16px*/
+  #cg-row {height: 15rem;}
+  #project-header {font-size: 12em;}
+  #project-subheader {font-size: 4em;}
+  #about-section {font-size: 3em;}
+  #description {text-align: justify;}
+}
+
+#promo-container {
+    /*background: #dfc2c4;*/
+    /*background: #FFD6B4*/
+    background-image: url("../static/bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+
+#cg-row {
+    /*height: 15rem;*/
+    background-image: url("../static/cg5.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+#projects-section {
+    /*height: 60em;*/
+    background: #222222;
+}
+
+#project-header {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    margin-top: 0.5em;
+    padding-bottom: 0;
+}
+
+#project-subheader {
+    font-family: "Courier New", sans-serif;
+    font-weight: normal;
+    color: #FFF;
+    text-align: center;
+}
+
+#project-subheader span {
+    color: #f76000;
+}
+
+#about-section {
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#about-section span {
+    color: #f76000;
+    /*font-family: "Courier New", sans-serif;*/
+    font-weight: normal;
+}
+
+.about-text {
+    text-transform: lowercase;
+    margin-top: 1em;
+    font-family: "Courier New", sans-serif;
+    font-weight: normal;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+#description {
+    margin-bottom: 1em;
+}
+
+a {
+    font-family: Montserrat, sans-serif;
+    font-size: 0.8em;
+    color: #f76000;
+    text-decoration: none;
+}
+
+#sources a:link {
+    color: #f76000;
+    transition: all 700ms;
+}
+
+#sources a:hover {
+    color: #FFF;
+    transition: all 700ms;
+}
+
+#main-footer {
+    height: 4em;
+    background: #1d1d1d;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    color: #FFF;
+}
+
+#copyright {
+    margin-top: 1em;
+}
+
+#copyright a {
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.header-text {
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    color: #ff9393
+}
+
+.dud-text {
+    color: #feffe9;
+}
