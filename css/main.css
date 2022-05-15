@@ -9,7 +9,7 @@
     #project-header {font-size: 3em;}
     #project-subheader {font-size: 1em;}
     #about-section {font-size: 1.5em;}
-    #description {font-size: 0.4em;}
+    #description {font-size: 0.6em;}
     #description {text-align: center;}
 }
 
@@ -19,7 +19,7 @@
   #project-header {font-size: 6em;}
   #project-subheader {font-size: 1.5em;}
   #about-section {font-size: 2em;}
-  #description {font-size: 0.4em;}
+  #description {font-size: 0.6em;}
   #description {text-align: center;}
 }
 
@@ -31,6 +31,7 @@
   #project-subheader {font-size: 3em;}
   #about-section {font-size: 3em;}
   #description {text-align: center;}
+  #description {font-size: 0.4em;}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -41,6 +42,7 @@
   #project-subheader {font-size: 4em;}
   #about-section {font-size: 3em;}
   #description {text-align: justify;}
+  #description {font-size: 0.4em;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -51,6 +53,7 @@
   #project-subheader {font-size: 4em;}
   #about-section {font-size: 3em;}
   #description {text-align: justify;}
+  #description {font-size: 0.4em;}
 }
 
 #promo-container {
@@ -73,9 +76,14 @@
     background-size: cover;
 }
 
+#cg-container {
+    overflow: hidden;
+}
+
 #projects-section {
     /*height: 60em;*/
     background: #222222;
+    overflow: hidden;
 }
 
 #project-header {
@@ -124,6 +132,10 @@
     font-size: 0.5em;
 }
 
+#authors-section {
+    font-size: 0.8em;
+}
+
 #description {
     margin-bottom: 1em;
 }
@@ -153,6 +165,10 @@ a {
     font-family: Arial, sans-serif;
     font-weight: lighter;
     color: #FFF;
+}
+
+#foot {
+    overflow: hidden;
 }
 
 #copyright {
